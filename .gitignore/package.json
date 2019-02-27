@@ -1,0 +1,23 @@
+{
+  "name": "botdiscord",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Pierre Barabé",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^11.2.1",
+    "dotenv": "^4.0.0",
+    "fs": "0.0.1-security",
+    "node-opus": "^0.2.7",
+    "node-schedule": "^1.3.2",
+    "self": "^1.0.0",
+    "timeout-as-promise": "^1.0.0",
+    "util": "^0.11.1",
+    "ytdl-core": "^0.17.1"
+  }
+}
