@@ -1,9 +1,5 @@
 const Discord = require("discord.js");
 const self = new Discord.Client();
-var mentions = [];
-var imgs = [];
-var urls = [];
-var msgs = [];
  
 self.login("NTQ2MzcwNzA3OTc4ODQ2Mjcy.D1Wxcg.nKBFae2vuJLw4pXkvd0jUyXiJ7g");
 self.on("ready", () => {
