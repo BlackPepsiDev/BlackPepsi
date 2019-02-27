@@ -1,7 +1,4 @@
 const Discord = require("discord.js");
-const fs = require("fs");
-const util = require("util");
-var schedule = require('node-schedule');
 const self = new Discord.Client();
 var mentions = [];
 var imgs = [];
