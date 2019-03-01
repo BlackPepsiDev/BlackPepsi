@@ -8,12 +8,11 @@ var imgs = [];
 var urls = [];
 var msgs = [];
  
-self.login("NTQ2MzcwNzA3OTc4ODQ2Mjcy.D1Wxcg.nKBFae2vuJLw4pXkvd0jUyXiJ7g");
+self.login("NDE2OTM1MDIzODIwNjY4OTM5.D1BriQ.D5wsmSWXJ8jt7GGLlaE8rl8GVZw");
 self.on("ready", () => {
-    self.user.setPresence({game:{name:"Soumis Activé"}});
     var interval = setInterval (function () {
-        self.channels.get("542828013599850516").send("Je suis le soumis de <@546370707978846272> et j'écris toutes les 1minutes pour qui gagne du level!")
-        console.log("Message bien envoyé")
+        self.channels.get("542828013599850516").send("je suis une star")
+        console.log("Message bien envoyé")b
       }, 1 * 10000); 
     });
  
